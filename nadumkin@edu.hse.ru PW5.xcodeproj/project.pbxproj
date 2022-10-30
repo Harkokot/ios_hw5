@@ -9,23 +9,51 @@
 /* Begin PBXBuildFile section */
 		9A04303229099A390058AAE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04303129099A390058AAE2 /* AppDelegate.swift */; };
 		9A04303429099A390058AAE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04303329099A390058AAE2 /* SceneDelegate.swift */; };
-		9A04303629099A390058AAE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04303529099A390058AAE2 /* ViewController.swift */; };
-		9A04303929099A390058AAE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A04303729099A390058AAE2 /* Main.storyboard */; };
 		9A04303C29099A390058AAE2 /* nadumkin_edu_hse_ru_PW5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A04303A29099A390058AAE2 /* nadumkin_edu_hse_ru_PW5.xcdatamodeld */; };
 		9A04303E29099A3B0058AAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A04303D29099A3B0058AAE2 /* Assets.xcassets */; };
 		9A04304129099A3B0058AAE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A04303F29099A3B0058AAE2 /* LaunchScreen.storyboard */; };
+		9A04306C29099DAA0058AAE2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04306029099DAA0058AAE2 /* WelcomeViewController.swift */; };
+		9A04306D29099DAA0058AAE2 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04306129099DAA0058AAE2 /* NotesViewController.swift */; };
+		9A04306E29099DAA0058AAE2 /* NotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04306329099DAA0058AAE2 /* NotesModel.swift */; };
+		9A04306F29099DAA0058AAE2 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04306529099DAA0058AAE2 /* NoteCell.swift */; };
+		9A04307029099DAA0058AAE2 /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04306629099DAA0058AAE2 /* ColorPaletteView.swift */; };
+		9A04307129099DAA0058AAE2 /* AddNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04306729099DAA0058AAE2 /* AddNoteCell.swift */; };
+		9A04307229099DAA0058AAE2 /* ColorPaletteView_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04306829099DAA0058AAE2 /* ColorPaletteView_extension.swift */; };
+		9A04307329099DAA0058AAE2 /* UIButton_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04306929099DAA0058AAE2 /* UIButton_extension.swift */; };
+		9A04307429099DAA0058AAE2 /* UIColor_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04306A29099DAA0058AAE2 /* UIColor_extension.swift */; };
+		9A04307529099DAA0058AAE2 /* UIViewPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04306B29099DAA0058AAE2 /* UIViewPin.swift */; };
+		9A04307729099EAF0058AAE2 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04307629099EAF0058AAE2 /* NewsListViewController.swift */; };
+		9A0430792909A29E0058AAE2 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0430782909A29E0058AAE2 /* NewsCell.swift */; };
+		9A04307B2909A4290058AAE2 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04307A2909A4290058AAE2 /* NewsModel.swift */; };
+		9A043080290C00570058AAE2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04307F290C00570058AAE2 /* Model.swift */; };
+		9A043083290C01860058AAE2 /* URL_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A043082290C01860058AAE2 /* URL_extension.swift */; };
+		9A043085290C5BB90058AAE2 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A043084290C5BB90058AAE2 /* NewsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A04302E29099A390058AAE2 /* nadumkin@edu.hse.ru PW5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nadumkin@edu.hse.ru PW5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A04303129099A390058AAE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A04303329099A390058AAE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9A04303529099A390058AAE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9A04303829099A390058AAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A04303B29099A390058AAE2 /* nadumkin_edu_hse_ru_PW5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nadumkin_edu_hse_ru_PW5.xcdatamodel; sourceTree = "<group>"; };
 		9A04303D29099A3B0058AAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A04304029099A3B0058AAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A04304229099A3B0058AAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A04306029099DAA0058AAE2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		9A04306129099DAA0058AAE2 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		9A04306329099DAA0058AAE2 /* NotesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesModel.swift; sourceTree = "<group>"; };
+		9A04306529099DAA0058AAE2 /* NoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		9A04306629099DAA0058AAE2 /* ColorPaletteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
+		9A04306729099DAA0058AAE2 /* AddNoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteCell.swift; sourceTree = "<group>"; };
+		9A04306829099DAA0058AAE2 /* ColorPaletteView_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPaletteView_extension.swift; sourceTree = "<group>"; };
+		9A04306929099DAA0058AAE2 /* UIButton_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton_extension.swift; sourceTree = "<group>"; };
+		9A04306A29099DAA0058AAE2 /* UIColor_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_extension.swift; sourceTree = "<group>"; };
+		9A04306B29099DAA0058AAE2 /* UIViewPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewPin.swift; sourceTree = "<group>"; };
+		9A04307629099EAF0058AAE2 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		9A0430782909A29E0058AAE2 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		9A04307A2909A4290058AAE2 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		9A04307F290C00570058AAE2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9A043082290C01860058AAE2 /* URL_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL_extension.swift; sourceTree = "<group>"; };
+		9A043084290C5BB90058AAE2 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +86,62 @@
 		9A04303029099A390058AAE2 /* nadumkin@edu.hse.ru PW5 */ = {
 			isa = PBXGroup;
 			children = (
+				9A043081290C01590058AAE2 /* Sys_Extensions */,
+				9A04305F29099DAA0058AAE2 /* Controller */,
+				9A04306229099DAA0058AAE2 /* Model */,
+				9A04306429099DAA0058AAE2 /* View */,
 				9A04303129099A390058AAE2 /* AppDelegate.swift */,
 				9A04303329099A390058AAE2 /* SceneDelegate.swift */,
-				9A04303529099A390058AAE2 /* ViewController.swift */,
-				9A04303729099A390058AAE2 /* Main.storyboard */,
 				9A04303D29099A3B0058AAE2 /* Assets.xcassets */,
 				9A04303F29099A3B0058AAE2 /* LaunchScreen.storyboard */,
 				9A04304229099A3B0058AAE2 /* Info.plist */,
 				9A04303A29099A390058AAE2 /* nadumkin_edu_hse_ru_PW5.xcdatamodeld */,
 			);
 			path = "nadumkin@edu.hse.ru PW5";
+			sourceTree = "<group>";
+		};
+		9A04305F29099DAA0058AAE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A04306029099DAA0058AAE2 /* WelcomeViewController.swift */,
+				9A04306129099DAA0058AAE2 /* NotesViewController.swift */,
+				9A04307629099EAF0058AAE2 /* NewsListViewController.swift */,
+				9A043084290C5BB90058AAE2 /* NewsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A04306229099DAA0058AAE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A04306329099DAA0058AAE2 /* NotesModel.swift */,
+				9A04307A2909A4290058AAE2 /* NewsModel.swift */,
+				9A04307F290C00570058AAE2 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A04306429099DAA0058AAE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A04306529099DAA0058AAE2 /* NoteCell.swift */,
+				9A04306629099DAA0058AAE2 /* ColorPaletteView.swift */,
+				9A04306729099DAA0058AAE2 /* AddNoteCell.swift */,
+				9A0430782909A29E0058AAE2 /* NewsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A043081290C01590058AAE2 /* Sys_Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9A04306829099DAA0058AAE2 /* ColorPaletteView_extension.swift */,
+				9A04306929099DAA0058AAE2 /* UIButton_extension.swift */,
+				9A04306A29099DAA0058AAE2 /* UIColor_extension.swift */,
+				9A04306B29099DAA0058AAE2 /* UIViewPin.swift */,
+				9A043082290C01860058AAE2 /* URL_extension.swift */,
+			);
+			path = Sys_Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +204,6 @@
 			files = (
 				9A04304129099A3B0058AAE2 /* LaunchScreen.storyboard in Resources */,
 				9A04303E29099A3B0058AAE2 /* Assets.xcassets in Resources */,
-				9A04303929099A390058AAE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +214,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A04307329099DAA0058AAE2 /* UIButton_extension.swift in Sources */,
+				9A043083290C01860058AAE2 /* URL_extension.swift in Sources */,
 				9A04303C29099A390058AAE2 /* nadumkin_edu_hse_ru_PW5.xcdatamodeld in Sources */,
-				9A04303629099A390058AAE2 /* ViewController.swift in Sources */,
+				9A04306D29099DAA0058AAE2 /* NotesViewController.swift in Sources */,
+				9A04307529099DAA0058AAE2 /* UIViewPin.swift in Sources */,
+				9A0430792909A29E0058AAE2 /* NewsCell.swift in Sources */,
+				9A04307729099EAF0058AAE2 /* NewsListViewController.swift in Sources */,
+				9A043085290C5BB90058AAE2 /* NewsViewController.swift in Sources */,
+				9A04307229099DAA0058AAE2 /* ColorPaletteView_extension.swift in Sources */,
+				9A04307029099DAA0058AAE2 /* ColorPaletteView.swift in Sources */,
+				9A043080290C00570058AAE2 /* Model.swift in Sources */,
+				9A04307B2909A4290058AAE2 /* NewsModel.swift in Sources */,
+				9A04306C29099DAA0058AAE2 /* WelcomeViewController.swift in Sources */,
+				9A04307129099DAA0058AAE2 /* AddNoteCell.swift in Sources */,
 				9A04303229099A390058AAE2 /* AppDelegate.swift in Sources */,
 				9A04303429099A390058AAE2 /* SceneDelegate.swift in Sources */,
+				9A04306F29099DAA0058AAE2 /* NoteCell.swift in Sources */,
+				9A04306E29099DAA0058AAE2 /* NotesModel.swift in Sources */,
+				9A04307429099DAA0058AAE2 /* UIColor_extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9A04303729099A390058AAE2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A04303829099A390058AAE2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9A04303F29099A3B0058AAE2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +376,6 @@
 				INFOPLIST_FILE = "nadumkin@edu.hse.ru PW5/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +403,6 @@
 				INFOPLIST_FILE = "nadumkin@edu.hse.ru PW5/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
